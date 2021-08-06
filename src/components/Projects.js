@@ -5,40 +5,81 @@ import {
 } from "@heroicons/react/solid";
 import React from "react";
 import { projects, skills } from "../data";
+import img from "../image4.jpeg";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-black body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+    <section id="about" className="text-gray-400 bg-black body-font">
+      <div
+        className="container px-5 py-10 mx-auto text-center lg:px-40 "
+        style={{ marginBottom: "-10vw" }}
+      >
         <div className="flex flex-col w-full mb-20">
-          <AnnotationIcon className="mx-auto inline-block w-10 mb-4" />
+          <AnnotationIcon
+            className="mx-auto inline-block w-10 mb-4"
+            style={{ marginTop: "160px" }}
+          />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Hakkımızda
           </h1>
-          <p className="lg:w mx-auto leading-relaxed text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-            sapien posuere, suscipit velit ut, scelerisque lorem. Maecenas
-            finibus malesuada molestie. Maecenas feugiat vulputate posuere. Nam
-            fermentum nunc eget massa imperdiet lacinia et sed risus. Phasellus
-            quis sapien dapibus, pretium libero non, porta erat. Donec vehicula
-            leo eu arcu fringilla lobortis eu sit amet orci. Aliquam id
-            imperdiet libero. Nullam ultricies enim quam, eget tincidunt nisi
-            luctus vel. Sed euismod ac justo eget convallis. Maecenas facilisis
-            sagittis posuere. Nullam pulvinar pharetra velit, quis auctor diam
-            egestas ut. Maecenas metus mi, finibus vel malesuada nec, fermentum
-            a lacus. Proin sit amet viverra tellus. In sem elit, pulvinar eget
-            diam nec, aliquam placerat arcu. Fusce semper mollis est maximus
-            varius. Vestibulum ornare lorem lacus, sit amet fermentum magna
-            rhoncus sed. Cras imperdiet dignissim est quis ultricies. Curabitur
-            accumsan, augue et fermentum dictum, urna est efficitur urna, id
-            volutpat purus nisi sed elit. Donec quis tellus hendrerit, varius
-            mauris at, hendrerit tortor. Quisque ut cursus odio, quis aliquet
-            velit. Maecenas lacus elit, vulputate non ante vel, auctor feugiat
-            purus. Integer imperdiet felis sit amet pharetra ultricies. Mauris
-            scelerisque laoreet lacinia. Etiam eros dui, malesuada sed ipsum
-            nec, dapibus tincidunt justo. Maecenas blandit lacus.
-          </p>
         </div>
+      </div>
+
+      <div className="container mx-auto flex md:flex-row flex-col items-center ">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left mb-32 md:mb-0 items-center text-center ">
+          <h1
+            className="title-font  mb-4 font-medium text-white"
+            style={{ fontSize: "max(2vw, 18px)" }}
+          >
+            Kurtaran Hukuk & Danışmanlık, akademik ve mesleki birikime sahip
+            olmanın yanı sıra genç ve dinamik yapısı, yenilikçi bakış açısı,
+            verimli zaman kullanımı ve çözüm odaklı yaklaşımı ile müvekkilleri
+            için etkin ve hızlı sonuç almayı prensip edinmiş, Eskişehir’de
+            hizmet veren bir hukuk bürosudur. Avukat Erinç Kurtaran hukuk
+            eğitimini, yasal avukatlık stajını ve mesleğindeki ilk yıllarını
+            Ankara’da sürdürmüş olup şu an Eskişehir’de hizmet veren Kurtaran
+            Hukuk & Danışmanlık bürosunun kurucu avukatı olarak mesleki
+            yaşantısına devam etmektedir.
+          </h1>
+          <h1></h1>
+          <h2></h2>
+          <br className=" lg:inline-block" />
+          <br className=" lg:inline-block" />
+          <br className=" lg:inline-block" />
+          <h1
+            className="title-font  mb-4 font-medium text-white"
+            style={{ fontSize: "max(2vw, 18px)" }}
+          >
+            Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını ve
+            mesleğindeki ilk yıllarını Ankara’da sürdürmüş olup şu an
+            Eskişehir’de yer alan Kurtaran Hukuk & Danışmanlık bürosunun kurucu
+            avukatı olarak mesleğini sürdürmektedir.
+          </h1>
+        </div>
+        {/*<div
+          className="bg-fixed"
+          style={{
+            backgroundImage: `url(${fadeImages[0]})`,
+            width: "60vw",
+            height: "40vw",
+            backgroundSize: "cover",
+          }}
+        ></div>
+        */}
+        <div
+          className="mt-32"
+          style={{
+            backgroundImage: `url(${img})`,
+            width: "60vh",
+            height: "90vh",
+            backgroundSize: "cover",
+            //backgroundPositionY: "-350px",
+          }}
+        ></div>
+      </div>
+
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
+        <div className="flex flex-col w-full mb-20"></div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">

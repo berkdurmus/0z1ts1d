@@ -4,31 +4,103 @@ import SimpleImageSlider from "react-simple-image-slider";
 
 const texts = [
   {
-    text: `"Şeref ve doğruluk adaletin temelidir."`,
-    person: "Marcus Tullius Cicero",
+    text: `"Adalet kutup yıldızı gibi yerinde durur ve geri kalan her şey onun etrafında döner."`,
+    person: "Konfüçyüs",
   },
   {
     text: `"Bir tek kişiye yapılan bir haksızlık, bütün topluma yapılan bir tehdittir."`,
     person: " Montesquieu",
   },
   {
-    text: `"Adalet herkese kendi hakkını vermek konusunda kat'i ve davamlı bir iradedir."`,
-    person: "Lustinianus",
+    text: `"İnsancıl   olmadıkça   adil   olunamaz."`,
+    person: "Vauvenargues",
+  },
+  {
+    text: `"Bir   yargıç,  iyi   niyetle   dinlemeli,   akıllıca   karşılık  vermeli,   sağlıklı   düşünmeli   ve tarafsızca karar vermelidir."`,
+    person: "Sokrates",
+  },
+  {
+    text: `"Şeref   ve   doğruluk   adaletin   temelidir."`,
+    person: "Cicero",
+  },
+  {
+    text: `"Adaletin   kuvvetli,   kuvvetlinin   de   adil   olması   gerekir."`,
+    person: "Pascal",
+  },
+  {
+    text: `"Adaletsizliğin   en   büyüğü   adil   olmayıp   adil   gibi   görünmektir."`,
+    person: "Platon",
+  },
+  {
+    text: `"Adaletin   olmadığı   yerde   ahlaktan   bahsedilemez."`,
+    person: " Montaigne",
+  },
+  {
+    text: `"Adaletsizliği   bir   yangından   daha   çabuk   önlemeliyiz."`,
+    person: "Heraklitos",
+  },
+  {
+    text: `"Bir sırrı saklayarak adalete zarar vermektense, adalet uğruna zarar görmeyi tercih ederim."`,
+    person: "Beethoven",
+  },
+  {
+    text: `"Hukukun   buyrukları   şunlardır:   Dürüst   yaşamak,   başkasını   zarara   uğratmamak, herkesin hakkını vermek."`,
+    person: "Ulpianus",
+  },
+  {
+    text: `"Haksızlığa  sapıp  bütün  insanların   seni izlemeleri  yerine,  adaletli  davranıp   tek başına kalmak daha iyidir."`,
+    person: "Gandhi",
   },
 ];
 
 const images = [
   {
     url:
-      "https://ik.imagekit.io/rfjpogvdn8p/erinc0_TsP6134H5.jpg?updatedAt=1627913960589",
+      "https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3150&q=80",
   },
   {
     url:
-      "https://ik.imagekit.io/rfjpogvdn8p/header_4uZLJ6BG2uL.svg?updatedAt=1627904638262",
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   },
   {
     url:
-      "https://ik.imagekit.io/rfjpogvdn8p/lady-justice_V9Yf9jFiy6A.jpg?updatedAt=1627907609733",
+      "https://images.unsplash.com/photo-1505664063603-28e48ca204eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1505547828843-176834e42154?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1505663912202-ac22d4cb3707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1437751068958-82e6fccc9360?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1531816458010-fb7685eecbcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1526285759904-71d1170ed2ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1505488387362-48bc38155987?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
+  },
+  {
+    url:
+      "https://images.unsplash.com/photo-1559749659-de900b633c9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
   },
 ];
 
@@ -46,7 +118,7 @@ export default function About() {
   const changeImagePeriodically = () => {};
 
   return (
-    <section id="about">
+    <section id="homepage">
       <div className="container mx-auto flex md:flex-row flex-col items-center ">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">

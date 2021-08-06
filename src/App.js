@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Videos from "./components/Videos";
-import Testimonials from "./components/Testimonials";
+import Articles from "./components/Articles";
 
 export default function App() {
   return (
@@ -14,6 +14,7 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
+      <Articles />
       <Videos />
       <Contact />
     </main>
