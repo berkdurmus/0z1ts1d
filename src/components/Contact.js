@@ -57,7 +57,7 @@ export default function Contact() {
             Bize Ulaşın
           </h2>
           <p className="leading-relaxed mb-5">
-            Desktek olmamızı istediğiniz herhangibir hukuki konu ya da sorunuz
+            Desktek olmamızı istediğiniz herhangi bir hukuki konu ya da sorunuz
             varsa bize ulaşabilirsiniz.
           </p>
           <div className="relative mb-4">
