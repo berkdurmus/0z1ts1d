@@ -9,7 +9,7 @@ export default function Videos() {
         <div className="flex flex-col w-full mb-20">
           <VideoCameraIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Soru-Cevap Videolar
+            Soru-Cevap (Video)
           </h1>
         </div>
         <div className="flex flex-wrap content-evenly">

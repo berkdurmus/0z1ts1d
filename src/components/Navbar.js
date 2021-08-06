@@ -27,7 +27,7 @@ export default function Navbar() {
             Makaleler
           </a>
           <a href="#videos" className="mr-5 hover:text-white">
-            Soru-Cevap
+            Soru-Cevap (Video)
           </a>
         </nav>
         <div href="#skills" className=" inline-flex items-center mr-5">

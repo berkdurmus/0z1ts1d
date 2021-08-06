@@ -30,11 +30,7 @@ export default function Skills() {
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
             {projects.map((project) => (
-              <a
-                href={project.link}
-                key={project.image}
-                className="sm:w-1/2 w-100 p-4"
-              >
+              <a key={project.image} className="sm:w-1/2 w-100 p-4">
                 <h1 className="title-font text-lg font-medium text-gold bg-black mb-3">
                   {project.title}
                 </h1>

@@ -35,11 +35,7 @@ export default function Projects() {
             olmanın yanı sıra genç ve dinamik yapısı, yenilikçi bakış açısı,
             verimli zaman kullanımı ve çözüm odaklı yaklaşımı ile müvekkilleri
             için etkin ve hızlı sonuç almayı prensip edinmiş, Eskişehir’de
-            hizmet veren bir hukuk bürosudur. Avukat Erinç Kurtaran hukuk
-            eğitimini, yasal avukatlık stajını ve mesleğindeki ilk yıllarını
-            Ankara’da sürdürmüş olup şu an Eskişehir’de hizmet veren Kurtaran
-            Hukuk & Danışmanlık bürosunun kurucu avukatı olarak mesleki
-            yaşantısına devam etmektedir.
+            hizmet veren bir hukuk bürosudur.
           </h1>
           <h1></h1>
           <h2></h2>
@@ -52,8 +48,8 @@ export default function Projects() {
           >
             Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını ve
             mesleğindeki ilk yıllarını Ankara’da sürdürmüş olup şu an
-            Eskişehir’de yer alan Kurtaran Hukuk & Danışmanlık bürosunun kurucu
-            avukatı olarak mesleğini sürdürmektedir.
+            Eskişehir’de hizmet veren Kurtaran Hukuk & Danışmanlık bürosunun
+            kurucu avukatı olarak mesleki yaşantısına devam etmektedir.
           </h1>
         </div>
         {/*<div

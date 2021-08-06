@@ -123,17 +123,21 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             {activeText.text}
-            <h1 className="title-font sm:text-xl text-3xl mb-4 font-medium text-white">
+            <h1
+              className="title-font sm:text-xl text-3xl mb-4 font-medium text-gold"
+              style={{ marginTop: "30px" }}
+            >
               {activeText.person}
             </h1>
             <br className="hidden lg:inline-block" />
           </h1>
+          {/*
           <h2 className=" whitespace-pre-wrap title-font sm:text-2xl text-2xl mb-4 font-medium text-white ">
             Etkin, Güvenilir, Saygın.
             <br className="hidden lg:inline-block" />
           </h2>
 
-          <div className="flex justify-center">
+         <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-gold border-0 py-2 px-6 focus:outline-none hover:bg-gold-highlight rounded text-lg"
@@ -147,6 +151,7 @@ export default function About() {
               Hizmetlerimize gözatın
             </a>
           </div>
+          */}
         </div>
         {/*<div
           className="bg-fixed"

@@ -1,7 +1,7 @@
 import { BadgeCheckIcon, ChipIcon, BookOpenIcon } from "@heroicons/react/solid";
 import React, { Text } from "react";
 import { skills, projects } from "../data";
-import img from "../combined.png";
+import img from "../combined2.png";
 
 export default function Articles() {
   return (
@@ -18,7 +18,6 @@ export default function Articles() {
             class="responsive"
             style={{
               width: "100%",
-              height: "600px",
               objectFit: "cover",
               objectPosition: "center",
               marginTop: "60px",
@@ -47,7 +46,7 @@ export default function Articles() {
                       Makale
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gold mb-3">
-                      X Davalarında Y Yaklaşım
+                      X Davalarında Y Bakış Açısı
                     </h1>
                     <p
                       className="leading-relaxed text-white"
