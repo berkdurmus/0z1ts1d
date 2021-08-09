@@ -8,7 +8,7 @@ const texts = [
     person: "Konfüçyüs",
   },
   {
-    text: `"Bir tek kişiye yapılan bir haksızlık, bütün topluma yapılan bir tehdittir."`,
+    text: `"Bir kişiye yapılan haksızlık, bütün topluma yapılan bir tehdittir."`,
     person: " Montesquieu",
   },
   {

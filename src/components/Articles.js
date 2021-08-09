@@ -41,7 +41,7 @@ export default function Articles() {
                     src={project.image}
                   />
 
-                  <div className="px-8 py-10 relative  w-full border-4 border-gray-800 bg-black bg-opacity-100 opacity-100 hover:opacity-100">
+                  <div className="px-8 py-10 relative  w-full border-4 border-gray-800 hover:border-gold bg-black bg-opacity-100 opacity-100 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-gold mb-1">
                       Makale
                     </h2>

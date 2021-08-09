@@ -12,7 +12,7 @@ export const projects = [
     title: "Miras Hukuku",
     subtitle: "2",
     description:
-      "İnsanların ölümlerinden sonra malları üzerinde yapmak istedikleri ölüme bağlı tasarrufları ve ölümleri halinde, gaipliğine karar verilmesinden sonra veya ölüm karinesinin varlığı halinde mirasa   konu   mallarının   (tereke)   yasal   mirasçılar  ve   diğer   mirasçılar   arasında   ne   şekilde paylaştırılacağını,   borçlarının   nasıl   ve   hangi   sırayla   ödeneceği   konularında   hizmet verilmektedir.",
+      "İnsanların ölümlerinden sonra malları üzerinde yapmak istedikleri ölüme bağlı tasarrufları ve ölümleri halinde, gaipliğine karar verilmesinden sonra veya ölüm karinesinin varlığı halinde mirasa   konu   mallarının   (tereke)   yasal   mirasçılar  ve   diğer   mirasçılar   arasında   ne   şekilde paylaştırılacağı,   borçlarının   nasıl   ve   hangi   sırayla   ödeneceği   konularında   hizmet verilmektedir.",
     image:
       "https://images.unsplash.com/photo-1528569937393-ee892b976859?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
     link: "",
@@ -66,7 +66,7 @@ export const projects = [
     title: "Gayrimenkul Hukuku",
     subtitle: "8",
     description:
-      "Arazi, arsa, ev, daire, apartman vb. taşınmaz mallarla ilgili güncel mevzuat değişiklikleri doğrultusunda, tapu davaları, istihkak davaları, kira davaları, kamulaştırma davaları, izale-i şüyu davaları gayrimenkul davaları konularında hizmet verilmektedir.",
+      "Arazi, arsa, ev, daire, apartman vb. taşınmaz mallarla ilgili güncel mevzuat değişiklikleri doğrultusunda, tapu davaları, istihkak davaları, kira davaları, kamulaştırma davaları, izale-i şüyu davaları ve gayrimenkul davaları konularında hizmet verilmektedir.",
     image:
       "https://images.unsplash.com/photo-1430285561322-7808604715df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
     link: "",
