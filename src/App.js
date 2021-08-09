@@ -18,6 +18,7 @@ export default function App() {
             {" "}
             <Navbar path="/" />
             <Article />
+            <Contact />
           </main>
         </Route>
         <Route path="/">

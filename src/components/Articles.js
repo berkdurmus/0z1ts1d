@@ -13,7 +13,7 @@ export default function Articles() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Makaleler
           </h1>
-          <img
+          {/*<img
             src={img}
             alt="Nature"
             class="responsive"
@@ -23,7 +23,7 @@ export default function Articles() {
               objectPosition: "center",
               marginTop: "60px",
             }}
-          />
+        />*/}
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto"></p>
         </div>
         <div className="container px-5 py-10 mx-auto">

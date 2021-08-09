@@ -1,7 +1,7 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills, projects } from "../data";
-import img from "../image0.jpeg";
+import img from "../combined5.png";
 
 export default function Skills() {
   return (
@@ -17,11 +17,9 @@ export default function Skills() {
             alt="Nature"
             class="responsive"
             style={{
-              width: "60%",
-              height: "auto",
+              width: "100%",
               objectFit: "cover",
               objectPosition: "center",
-              margin: "auto",
               marginTop: "60px",
             }}
           />

@@ -52,6 +52,10 @@ export default function Contact() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Bize Ulaşın
           </h1>
+          <h1 className="sm:text-xl text-xl font-regular title-font text-gold mb-4">
+            Alanönü Mah. Petek Sok. Köker Plaza No:1 Kat:1 Daire:3, 26030
+            Odunpazarı/Eskişehir
+          </h1>
         </div>
 
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">

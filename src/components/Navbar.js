@@ -55,12 +55,12 @@ export default function Navbar({ path = "" }) {
         >
           <PhoneIcon className="w-4 h-4 ml-1" />
           <a
-            href="tel:+902223051095"
+            href="tel:+902222051095"
             className="hover:text-gold"
             style={{ marginRight: "30px" }}
           >
             {" "}
-            0(222) 305 10 95{" "}
+            0(222) 205 10 95{" "}
           </a>
           {"     "}
           <MailIcon

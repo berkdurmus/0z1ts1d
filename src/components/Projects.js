@@ -27,16 +27,27 @@ export default function Projects() {
 
       <div className="container mx-auto flex md:flex-row flex-col items-center ">
         <div className="lg:flex-grow md:w-1/2 lg:pr-12 md:pr-16 flex flex-col md:items-start md:text-left mb-32 md:mb-0 items-center text-center ">
-          <h1
-            className="title-font  mb-4 font-medium text-white"
-            style={{ fontSize: "max(2vw, 18px)" }}
+          <div
+            className="title-font  mb-4 font-regular text-white"
+            style={{
+              fontSize: "max(2vw, 20px)",
+              marginTop: "160px",
+              textAlign: "justify",
+              textJustify: "inter-character",
+              padding: "10px",
+            }}
           >
             Kurtaran Hukuk & Danışmanlık, akademik ve mesleki birikime sahip
             olmanın yanı sıra genç ve dinamik yapısı, yenilikçi bakış açısı,
             verimli zaman kullanımı ve çözüm odaklı yaklaşımı ile müvekkilleri
             için etkin ve hızlı sonuç almayı prensip edinmiş, Eskişehir’de
             hizmet veren bir hukuk bürosudur.
-          </h1>
+            <br></br>
+            {"\n"}Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını
+            ve mesleğindeki ilk yıllarını Ankara’da sürdürmüş olup şu an
+            Eskişehir’de hizmet veren Kurtaran Hukuk & Danışmanlık bürosunun
+            kurucu avukatı olarak mesleki yaşantısına devam etmektedir.
+          </div>
           <h1></h1>
           <h2></h2>
           <br className=" lg:inline-block" />
@@ -45,12 +56,7 @@ export default function Projects() {
           <h1
             className="title-font  mb-4 font-medium text-white"
             style={{ fontSize: "max(2vw, 18px)" }}
-          >
-            Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını ve
-            mesleğindeki ilk yıllarını Ankara’da sürdürmüş olup şu an
-            Eskişehir’de hizmet veren Kurtaran Hukuk & Danışmanlık bürosunun
-            kurucu avukatı olarak mesleki yaşantısına devam etmektedir.
-          </h1>
+          ></h1>
         </div>
         {/*<div
           className="bg-fixed"

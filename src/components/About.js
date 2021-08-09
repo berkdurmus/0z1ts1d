@@ -2,6 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import img from "../header.svg";
 import SimpleImageSlider from "react-simple-image-slider";
 
+import "./About.css";
+import Slider from "react-slick";
+
 const texts = [
   {
     text: `"Adalet kutup yıldızı gibi yerinde durur ve geri kalan her şey onun etrafında döner."`,
@@ -107,6 +110,7 @@ const images = [
 export default function About() {
   //const [currentImage, setCurrentImage] = useState();
   const [activeText, setActiveText] = useState(texts[0]);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const onStartSlide = useCallback((idx, length) => {
     console.log(`[App onStartSlide] ${idx}/${length}`);
@@ -117,11 +121,20 @@ export default function About() {
 
   const changeImagePeriodically = () => {};
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
+
   return (
     <section id="homepage">
       <div
         className="container mx-auto flex md:flex-row flex-col items-center "
-        style={{ marginTop: "130px" }}
+        style={{ marginTop: "30px" }}
       >
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
@@ -134,46 +147,18 @@ export default function About() {
             </h1>
             <br className="hidden lg:inline-block" />
           </h1>
-          {/*
-          <h2 className=" whitespace-pre-wrap title-font sm:text-2xl text-2xl mb-4 font-medium text-white ">
-            Etkin, Güvenilir, Saygın.
-            <br className="hidden lg:inline-block" />
-          </h2>
-
-         <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-gold border-0 py-2 px-6 focus:outline-none hover:bg-gold-highlight rounded text-lg"
-            >
-              Bize Ulaşın
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400  border-0 py-2 px-6 focus:outline-none hover:bg-gold-highlight hover:text-white rounded text-lg"
-            >
-              Hizmetlerimize gözatın
-            </a>
-          </div>
-          */}
         </div>
-        {/*<div
-          className="bg-fixed"
-          style={{
-            backgroundImage: `url(${fadeImages[0]})`,
-            width: "60vw",
-            height: "40vw",
-            backgroundSize: "cover",
-          }}
-        ></div>
-        */}
+
         <div>
           <SimpleImageSlider
             className="bg-fixed"
-            height="60vh"
-            width="60vw"
+            height="40vw"
+            width="65vw"
             images={images}
             slideDuration={1.2}
-            startIndex={0}
+            autoplaySpeed={1}
+            autoplay={true}
+            startIndex={activeImageIndex}
             useGPURender={true}
             showBullets={false}
             showNavs={true}

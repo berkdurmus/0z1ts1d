@@ -1,11 +1,15 @@
 import { BookOpenIcon } from "@heroicons/react/solid";
-import React, { Text } from "react";
+import React, { Text, useEffect } from "react";
 import { useParams } from "react-router";
 import img from "../combined2.png";
 
 import { articles } from "../data";
 export default function Article() {
   let { title } = useParams();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   //REPLACE: urlEncode(a.title) === url;
   const article = articles.find((a) => a.title == title);
   return (
@@ -18,8 +22,8 @@ export default function Article() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gold">
             {article.title}
             <p
-              className="title-font sm:text-xl text-3xl mb-4 font-medium text-white"
-              style={{ marginTop: "30px", marginBottom: "300px" }}
+              className="title-font sm:text-xl text-xl mb-4 font-medium text-white"
+              style={{ marginTop: "30px", marginBottom: "100px" }}
             >
               {article.content}
             </p>
