@@ -17,10 +17,11 @@ export default function Skills() {
             alt="Nature"
             class="responsive"
             style={{
-              width: "100%",
-              height: "400px",
+              width: "60%",
+              height: "auto",
               objectFit: "cover",
               objectPosition: "center",
+              margin: "auto",
               marginTop: "60px",
             }}
           />

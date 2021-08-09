@@ -1,7 +1,8 @@
 import { BadgeCheckIcon, ChipIcon, BookOpenIcon } from "@heroicons/react/solid";
 import React, { Text } from "react";
-import { skills, projects } from "../data";
+import { skills, projects, articles } from "../data";
 import img from "../combined2.png";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function Articles() {
   return (
@@ -27,47 +28,39 @@ export default function Articles() {
         </div>
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
-            {projects.map((project) => (
-              <a
-                href={project.link}
-                key={project.image}
-                className="sm:w-1/2 w-100 p-4"
-              >
-                <h1 className="title-font text-lg font-medium text-white bg-black mb-3"></h1>
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src={project.image}
-                  />
-
-                  <div className="px-8 py-10 relative  w-full border-4 border-gray-800 hover:border-gold bg-black bg-opacity-100 opacity-100 hover:opacity-100">
-                    <h2 className="tracking-widest text-sm title-font font-medium text-gold mb-1">
-                      Makale
-                    </h2>
-                    <h1 className="title-font text-lg font-medium text-gold mb-3">
-                      X Davalarında Y Bakış Açısı
-                    </h1>
-                    <p
-                      className="leading-relaxed text-white"
-                      style={{
-                        wordBreak: "break-word",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        display: "-webkit-inline-flex",
-                        WebkitLineClamp: "2",
-                        lineClamp: "2",
-                      }}
-                    >
-                      {project.description.length > 50
-                        ? project.description.substring(0, 50)
-                        : project.description}
-                      ...
-                    </p>
-                    <text> </text>
-                    <text> devamını oku > </text>
+            {articles.map((article) => (
+              <a key={article.title} className="sm:w-1/2 w-100 p-4">
+                <Link to={`/makale/` + encodeURI(article.title)}>
+                  <h1 className="title-font text-lg font-medium text-white bg-black mb-3"></h1>
+                  <div className="flex relative">
+                    <div className="px-8 py-10 relative  w-full border-4 border-gray-800 hover:border-gold bg-black bg-opacity-100 opacity-100 hover:opacity-100">
+                      <h2 className="tracking-widest text-sm title-font font-medium text-gold mb-1">
+                        Makale
+                      </h2>
+                      <h1 className="title-font text-lg font-medium text-gold mb-3">
+                        {article.title}
+                      </h1>
+                      <p
+                        className="leading-relaxed text-white"
+                        style={{
+                          wordBreak: "break-word",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          display: "-webkit-inline-flex",
+                          WebkitLineClamp: "2",
+                          lineClamp: "2",
+                        }}
+                      >
+                        {article.content.length > 50
+                          ? article.content.substring(0, 50)
+                          : article.content}
+                        ...
+                      </p>
+                      <text> </text>
+                      <text className="hover:text-gold"> devamını oku > </text>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </a>
             ))}
           </div>

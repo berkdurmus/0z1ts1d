@@ -5,10 +5,14 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.3",
+    "emailjs-com": "^3.2.0",
+    "encodeurl": "^1.0.2",
     "react": "^17.0.2",
     "react-animated-slider": "^2.0.0",
     "react-dom": "^17.0.2",
     "react-image-gallery": "^1.2.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^1.1.5",
     "react-simple-image-slider": "^2.1.2",
     "react-slideshow-image": "^3.5.0"

@@ -119,7 +119,10 @@ export default function About() {
 
   return (
     <section id="homepage">
-      <div className="container mx-auto flex md:flex-row flex-col items-center ">
+      <div
+        className="container mx-auto flex md:flex-row flex-col items-center "
+        style={{ marginTop: "130px" }}
+      >
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             {activeText.text}
@@ -166,7 +169,7 @@ export default function About() {
         <div>
           <SimpleImageSlider
             className="bg-fixed"
-            height="40vw"
+            height="60vh"
             width="60vw"
             images={images}
             slideDuration={1.2}
