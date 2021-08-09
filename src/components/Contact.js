@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../header.svg";
 import { LocationMarkerIcon } from "@heroicons/react/solid";
-import emailjs from "emailjs-com";
+import * as emailjs from "emailjs-com";
 
 export default function Contact() {
   const [name, setName] = React.useState("");

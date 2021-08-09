@@ -13,7 +13,7 @@
     "react-image-gallery": "^1.2.6",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "2.1.8",
     "react-simple-image-slider": "^2.1.2",
     "react-slideshow-image": "^3.5.0"
   },
@@ -33,5 +33,11 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

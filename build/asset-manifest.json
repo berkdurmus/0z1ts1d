@@ -1,11 +1,18 @@
 {
-  "main.css": "static/css/main.f01afbe0.css",
-  "main.css.map": "static/css/main.f01afbe0.css.map",
-  "main.js": "static/js/main.e7ed2d63.js",
-  "main.js.map": "static/js/main.e7ed2d63.js.map",
-  "static/media/combined2.png": "static/media/combined2.5a2e79cf.png",
-  "static/media/header.svg": "static/media/header.2f2b77c6.svg",
-  "static/media/image0.jpeg": "static/media/image0.4931059c.jpeg",
-  "static/media/image4.jpeg": "static/media/image4.5c5b5dd6.jpeg",
-  "static/media/kurtaranlogo6.png": "static/media/kurtaranlogo6.5090ad5c.png"
+  "main.css": "/static/css/main.dce76801.chunk.css",
+  "main.js": "/static/js/main.dbd916d1.chunk.js",
+  "main.js.map": "/static/js/main.dbd916d1.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.20aed35f.chunk.js": "/static/js/2.20aed35f.chunk.js",
+  "static/js/2.20aed35f.chunk.js.map": "/static/js/2.20aed35f.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.9877dd087bb6adf1f524aa69239cc2cd.js": "/precache-manifest.9877dd087bb6adf1f524aa69239cc2cd.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.dce76801.chunk.css.map": "/static/css/main.dce76801.chunk.css.map",
+  "static/media/combined2.png": "/static/media/combined2.5a2e79cf.png",
+  "static/media/header.svg": "/static/media/header.2f2b77c6.svg",
+  "static/media/image0.jpeg": "/static/media/image0.4931059c.jpeg",
+  "static/media/image4.jpeg": "/static/media/image4.5c5b5dd6.jpeg",
+  "static/media/kurtaranlogo6.png": "/static/media/kurtaranlogo6.5090ad5c.png"
 }
