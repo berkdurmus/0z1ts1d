@@ -31,7 +31,7 @@ export default function Projects() {
             className="title-font  mb-4 font-regular text-white"
             style={{
               fontSize: "max(2vw, 20px)",
-              marginTop: "160px",
+              marginTop: "180px",
               textAlign: "justify",
               textJustify: "inter-word",
               padding: "10px",
