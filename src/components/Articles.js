@@ -44,10 +44,11 @@ export default function Articles() {
                 <Link to={`/makale/` + encodeURI(article.title)}>
                   <h1 className="title-font text-lg font-medium text-white bg-black mb-3"></h1>
                   <div className="flex relative">
-                    <div className="px-8 py-10 relative  w-full border-4 border-gray-800 hover:border-gold bg-black bg-opacity-100 opacity-100 hover:opacity-100">
-                      <h2 className="tracking-widest text-sm title-font font-medium text-gold mb-1">
-                        Makale
-                      </h2>
+                    <div
+                      className="px-8 py-10 relative s  w-full border-4 border-gray-800 hover:border-gold bg-black bg-opacity-100 opacity-100 hover:opacity-100"
+                      style={{ minHeight: "200px" }}
+                    >
+                      <h2 className="tracking-widest text-sm title-font font-medium text-gold mb-1"></h2>
                       <h1 className="title-font text-lg font-medium text-gold mb-3">
                         {article.title}
                       </h1>
@@ -62,8 +63,8 @@ export default function Articles() {
                           lineClamp: "2",
                         }}
                       >
-                        {article.content[0].length > 80
-                          ? article.content[0].substring(0, 80)
+                        {article.content[0].length > 50
+                          ? article.content[0].substring(0, 50)
                           : article.content[0]}
                         ...
                       </p>
