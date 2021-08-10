@@ -1,7 +1,7 @@
 import { CodeIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
-
+import img from "../yatay01.jpg";
 export default function Videos() {
   return (
     <section id="videos" className="text-gray-400 bg-black body-font">
@@ -11,6 +11,17 @@ export default function Videos() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Soru-Cevap (Video)
           </h1>
+          <img
+            src={img}
+            alt="Nature"
+            class="responsive"
+            style={{
+              width: "100%",
+              objectFit: "cover",
+              objectPosition: "center",
+              marginTop: "60px",
+            }}
+          />
         </div>
         <div className="flex flex-wrap content-evenly">
           <iframe

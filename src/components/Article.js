@@ -1,7 +1,8 @@
 import { BookOpenIcon } from "@heroicons/react/solid";
 import React, { Text, useEffect } from "react";
 import { useParams } from "react-router";
-import img from "../combined2.png";
+//import img from "../combined2.png";
+import img from "../combined5.png";
 
 import { articles } from "../data";
 export default function Article() {
@@ -21,12 +22,23 @@ export default function Article() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gold">
             {article.title}
-            <p
-              className="title-font sm:text-xl text-xl mb-4 font-medium text-white"
-              style={{ marginTop: "30px", marginBottom: "100px" }}
-            >
-              {article.content}
-            </p>
+            <div>
+              {article.content.map((paragraph) => (
+                <div
+                  className="title-font  mb-10 font-regular text-white"
+                  style={{
+                    fontSize: "max(1.5vw, 16px)",
+                    marginTop: "20px",
+                    textAlign: "justify",
+                    textJustify: "inter-word",
+                    padding: "0px",
+                  }}
+                >
+                  {" "}
+                  {paragraph}
+                </div>
+              ))}
+            </div>
           </h1>
         </div>
       </div>

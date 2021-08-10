@@ -20,11 +20,16 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm(
+        "service_bpdbigo",
+        "template_t81f2nr",
+        e.target,
+        "user_i7n0TPSdMmKfsb0DaOgpi"
+      )
       .then(
         (result) => {
           console.log(result.text);
-          alert("Mesajınız gönderildi!");
+          alert("Mesajınız gönderildi!:", result.text);
         },
         (error) => {
           console.log(error.text);

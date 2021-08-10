@@ -1,7 +1,7 @@
 import { BadgeCheckIcon, ChipIcon, BookOpenIcon } from "@heroicons/react/solid";
 import React, { Text } from "react";
 import { skills, projects, articles } from "../data";
-import img from "../combined2.png";
+import img from "../kutuphane.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function Articles() {
@@ -13,6 +13,17 @@ export default function Articles() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Makaleler
           </h1>
+          <img
+            src={img}
+            alt="Nature"
+            class="responsive"
+            style={{
+              width: "100%",
+              objectFit: "cover",
+              objectPosition: "center",
+              marginTop: "60px",
+            }}
+          />
           {/*<img
             src={img}
             alt="Nature"
@@ -51,9 +62,9 @@ export default function Articles() {
                           lineClamp: "2",
                         }}
                       >
-                        {article.content.length > 50
-                          ? article.content.substring(0, 50)
-                          : article.content}
+                        {article.content[0].length > 80
+                          ? article.content[0].substring(0, 80)
+                          : article.content[0]}
                         ...
                       </p>
                       <text> </text>

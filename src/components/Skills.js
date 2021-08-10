@@ -1,7 +1,7 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills, projects } from "../data";
-import img from "../combined5.png";
+import img from "../yatay42.jpg";
 
 export default function Skills() {
   return (

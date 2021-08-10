@@ -33,8 +33,9 @@ export default function Projects() {
               fontSize: "max(2vw, 20px)",
               marginTop: "160px",
               textAlign: "justify",
-              textJustify: "inter-character",
+              textJustify: "inter-word",
               padding: "10px",
+              fontFamily: "Open Sans, sans-serif",
             }}
           >
             Kurtaran Hukuk & Danışmanlık, akademik ve mesleki birikime sahip
@@ -42,9 +43,20 @@ export default function Projects() {
             verimli zaman kullanımı ve çözüm odaklı yaklaşımı ile müvekkilleri
             için etkin ve hızlı sonuç almayı prensip edinmiş, Eskişehir’de
             hizmet veren bir hukuk bürosudur.
-            <br></br>
-            {"\n"}Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını
-            ve mesleğindeki ilk yıllarını Ankara’da sürdürmüş olup şu an
+          </div>
+          <div
+            className="title-font  mb-4 font-regular text-white"
+            style={{
+              fontSize: "max(2vw, 20px)",
+              marginTop: "20px",
+              textAlign: "justify",
+              textJustify: "inter-word",
+              padding: "10px",
+              fontFamily: "Open Sans, sans-serif",
+            }}
+          >
+            Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını ve
+            mesleğindeki ilk yıllarını Ankara’da sürdürmüş olup şu an
             Eskişehir’de hizmet veren Kurtaran Hukuk & Danışmanlık bürosunun
             kurucu avukatı olarak mesleki yaşantısına devam etmektedir.
           </div>
