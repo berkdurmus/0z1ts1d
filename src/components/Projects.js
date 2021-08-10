@@ -35,7 +35,8 @@ export default function Projects() {
               textAlign: "justify",
               textJustify: "inter-word",
               padding: "10px",
-              fontFamily: "Open Sans, sans-serif",
+              fontFamily: "Crimson Pro, serif",
+              fontStyle: "italic",
             }}
           >
             Kurtaran Hukuk & Danışmanlık, akademik ve mesleki birikime sahip
@@ -45,14 +46,15 @@ export default function Projects() {
             hizmet veren bir hukuk bürosudur.
           </div>
           <div
-            className="title-font  mb-4 font-regular text-white"
+            className="title-font  mb-4  text-white"
             style={{
               fontSize: "max(2vw, 20px)",
               marginTop: "20px",
               textAlign: "justify",
               textJustify: "inter-word",
               padding: "10px",
-              fontFamily: "Open Sans, sans-serif",
+              fontFamily: "Crimson Pro, serif",
+              fontStyle: "italic",
             }}
           >
             Avukat Erinç Kurtaran hukuk eğitimini, yasal avukatlık stajını ve
