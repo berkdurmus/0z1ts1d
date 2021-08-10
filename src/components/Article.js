@@ -20,7 +20,14 @@ export default function Article() {
         style={{ marginTop: "130px" }}
       >
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gold">
+          <h1
+            className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gold"
+            style={{
+              textAlign: "justify",
+              textJustify: "auto",
+              padding: "10px",
+            }}
+          >
             {article.title}
             <div>
               {article.content.map((paragraph) => (
@@ -31,7 +38,7 @@ export default function Article() {
                     marginTop: "20px",
                     textAlign: "justify",
                     textJustify: "inter-word",
-                    padding: "0px",
+                    padding: "10px",
                   }}
                 >
                   {" "}
