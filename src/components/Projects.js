@@ -85,7 +85,12 @@ export default function Projects() {
 
         <img
           src={img}
-          style={{ maxWidth: "350px", marginRight: "5px", marginLeft: "5px" }}
+          style={{
+            maxWidth: "350px",
+            marginRight: "5px",
+            marginLeft: "5px",
+            width: "100%",
+          }}
         />
       </div>
 

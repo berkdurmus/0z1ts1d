@@ -153,7 +153,7 @@ export default function About() {
         <div>
           <img
             src={images[activeImageIndex].url}
-            style={{ maxWidth: "864px" }}
+            style={{ maxWidth: "864px", width: "100%" }}
           />
         </div>
       </div>
