@@ -82,16 +82,11 @@ export default function Projects() {
           }}
         ></div>
         */}
-        <div
-          className="mt-32"
-          style={{
-            backgroundImage: `url(${img})`,
-            width: "60vh",
-            height: "90vh",
-            backgroundSize: "cover",
-            //backgroundPositionY: "-350px",
-          }}
-        ></div>
+
+        <img
+          src={img}
+          style={{ maxWidth: "350px", marginRight: "5px", marginLeft: "5px" }}
+        />
       </div>
 
       <div className="container px-5 py-10 mx-auto text-center lg:px-40 ">
