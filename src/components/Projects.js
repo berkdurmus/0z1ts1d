@@ -86,7 +86,7 @@ export default function Projects() {
         <img
           src={img}
           style={{
-            maxWidth: "350px",
+            maxWidth: "500px",
             marginRight: "5px",
             marginLeft: "5px",
             width: "100%",

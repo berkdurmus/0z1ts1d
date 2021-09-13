@@ -5,7 +5,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function Navbar({ path = "" }) {
   return (
-    <header className="bg-black md:sticky top-0  z-10">
+    <header
+      className="bg-black md:sticky top-0  z-10"
+      style={{ backgroundColor: "black", marginTop: "5px" }}
+    >
       <div className="container mx-auto flex flex-wrap p-0 flex-col md:flex-row items-center bg-black mt-100">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href={`${path}#homepage`} className="ml-3 text-xl">

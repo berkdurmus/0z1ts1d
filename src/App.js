@@ -11,26 +11,32 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/makale/:title">
-          <main className="text-gray-400 bg-black body-font">
+    <Router style={{ backgroundColor: "black" }}>
+      <Switch style={{ backgroundColor: "black" }}>
+        <Route path="/makale/:title" style={{ backgroundColor: "black" }}>
+          <main
+            className="text-gray-400 bg-black body-font"
+            style={{ backgroundColor: "black" }}
+          >
             {" "}
-            <Navbar path="/" />
-            <Article />
-            <Contact />
+            <Navbar path="/" style={{ backgroundColor: "black" }} />
+            <Article style={{ backgroundColor: "black" }} />
+            <Contact style={{ backgroundColor: "black" }} />
           </main>
         </Route>
-        <Route path="/">
-          <main className="text-gray-400 bg-black body-font">
+        <Route path="/" style={{ backgroundColor: "black" }}>
+          <main
+            className="text-gray-400 bg-black body-font"
+            style={{ backgroundColor: "black" }}
+          >
             {" "}
-            <Navbar />
-            <About />
-            <Projects />
-            <Skills />
-            <Articles />
-            <Videos />
-            <Contact />
+            <Navbar style={{ backgroundColor: "black" }} />
+            <About style={{ backgroundColor: "black" }} />
+            <Projects style={{ backgroundColor: "black" }} />
+            <Skills style={{ backgroundColor: "black" }} />
+            <Articles style={{ backgroundColor: "black" }} />
+            <Videos style={{ backgroundColor: "black" }} />
+            <Contact style={{ backgroundColor: "black" }} />
           </main>
         </Route>
       </Switch>

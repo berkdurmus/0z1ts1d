@@ -104,7 +104,7 @@ export default function About() {
   useEffect(() => {
     const intervalId = setInterval(
       () => setActiveImageIndex((index) => (index < 11 ? index + 1 : 0)),
-      3000 // every 3 seconds
+      8000 // every 3 seconds
     );
     return () => clearTimeout(intervalId);
   }, []);
@@ -136,7 +136,17 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1
             className="title-font sm:text-4xl text-4xl mb-4 font-medium text-white"
-            style={{ fontFamily: "Crimson Pro, serif", fontStyle: "italic" }}
+            style={{
+              fontFamily: "Crimson Pro, serif",
+              fontStyle: "italic",
+              height: "300px",
+              alignContent: "center",
+              justifyContent: "center",
+              alignSelf: "center",
+              display: "flex",
+              flexDirection: "column",
+              margin: "auto",
+            }}
           >
             {texts[activeImageIndex].text}
 
@@ -153,7 +163,7 @@ export default function About() {
         <div>
           <img
             src={images[activeImageIndex].url}
-            style={{ maxWidth: "864px", width: "100%" }}
+            style={{ maxWidth: "1300px", width: "100%" }}
           />
         </div>
       </div>
