@@ -1,7 +1,7 @@
 import { BadgeCheckIcon, ChipIcon, BookOpenIcon } from "@heroicons/react/solid";
 import React, { Text } from "react";
 import { skills, projects, articles } from "../data";
-import img from "../kutuphane.jpg";
+import img from "../kutuphane2.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function Articles() {
@@ -69,7 +69,7 @@ export default function Articles() {
                         ...
                       </p>
                       <text> </text>
-                      <text className="hover:text-gold"> devamını oku > </text>
+                      <text className="hover:text-gold"> devamını oku  </text>
                     </div>
                   </div>
                 </Link>
